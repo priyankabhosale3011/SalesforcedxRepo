@@ -1,5 +1,5 @@
 public with sharing class AccountSearchController {
-    /* This is a ccontroler */
+
     @AuraEnabled
     public static List<Account> searchAccounts( String searchTerm ) {
         List<Account> accounts = new List<Account>();
